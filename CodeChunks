@@ -1,0 +1,7 @@
+//See if player is online or not
+Player target = Bukkit.getServer().getPlayerExact("Player Name");
+if(target){
+        // player is online
+}else{
+       // player is offline
+}

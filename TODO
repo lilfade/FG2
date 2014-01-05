@@ -1,8 +1,10 @@
-messages.php:
-will recieve messages in a $_GET request once recieved will store in the db, will inform sender
-that we got the message
-
-if the reciever is online then inform them they have a message
-if not then let them know when they login next time
-
-message.php?action=checkmessage&player=playername
+Add:
+	-Ability to track the permissions of different tiers available to the users
+	-PM system (website todo: for offline messaging between mc<->fadedgaming.co)
+	-Bug/Suggestion/Authorization system
+	
+	Auth System:
+		-user logs in is given guest permissions and is granted a auth code
+		-send user email with link to validate and create account
+		-user creates account on website by using the auth code
+		-user is granted in-game permissions of a user rather then a guest
