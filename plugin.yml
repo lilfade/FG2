@@ -1,0 +1,11 @@
+name: FG2
+main: co.fadedgaming.lilfade.FG2.FG2
+version: 0.01
+description: >
+             FG2 is a custom made plugin for FadedGaming.co's prison server that will help the admin's
+             in a lightweight way.
+author: lilfade
+
+commands:
+  oc:
+  	description: opens virtual chest for player
