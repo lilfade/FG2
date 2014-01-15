@@ -1,3 +1,2 @@
-http-server: http://www.fadedgaming.co/
-auth-page: serverenable.php
-pm-page: message.php
+http: http://www.fadedgaming.co/
+auth: serverenable.php

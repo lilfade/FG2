@@ -28,8 +28,7 @@ public class FG2FirstJoinListner implements Listener {
             //player.setFoodLevel(1);
         	
         	//pass info to server for registration
-        	FG2Utilitys.sendGetRequest(plugin.getConfig().getString("http-server")+plugin.getConfig().getString("auth-page"), "action=addplayer&player="+player.getName());
-        		
+        	FG2Utilitys.sendGetRequest(plugin.getConfig().getString("http")+plugin.getConfig().getString("auth"), "action=addplayer&player="+player.getName());
         } else {
         	//user has logged on before do what we need to do here, maybe update money
         	//FG2Utilitys.sendGetRequest(plugin.getConfig().getString("http-server")+plugin.getConfig().getString("pm-page"), "action=checkmessage&player="+player.getName());
